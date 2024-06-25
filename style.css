@@ -1,0 +1,136 @@
+.header{
+    background-color: #1f2937;
+    height: 400px;
+}
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    margin-left: 200px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    transform: translate(0px,-50px);
+    
+}
+nav ul li{
+    padding: 10px;
+	margin: 4px;
+	font-size: 18px;	
+}
+nav a{
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.website-content{
+    margin-left:200px;
+    color: #f9faf8;
+}
+.website-content h1{
+    font-size: 48px;
+    font-family:aerial,sans-serif;
+    margin: 0;
+}
+.btn{
+    font-size: 18px;
+    background-color: #3882f6;
+    color: #E5E7EB;
+    margin:0;
+    padding:10px 30px 10px 30px;
+    border-radius: 10px;
+}
+
+.image{
+    height: 220px;
+    width:40%;
+    background-color:rgb(146, 166, 188);
+    color:#e3e9f0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(600px,-220px);
+    text-align: center;
+    box-sizing: border-box;
+
+}
+.info-section h2{
+    text-align: center;
+    font-family: aerial,sans-serif;
+}
+.info-section{
+    width: 100%;
+    background-color: #fafafa;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    transform: translate(0px, 0px);
+}
+.box-content{
+    border-radius: 5px;
+    border: 3px solid #3882f6;
+    padding: 15px;
+    margin: 8px;
+    height: 80px;
+    width: 80px;
+}
+.sub-text{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type:none;
+    transform: translate(-20px,-30px);
+}
+.quote-section{
+    background-color: #E5E7EB;
+    padding: 20px;
+
+}
+.quote-section blockquote{
+    text-align: center;
+    font-size: 36px;
+    font-style:italic;
+    color: #1f2937;
+}
+footer{
+    float: right;
+    font-style:normal;
+    font-size: 24px;
+}
+.cta-section{
+    background-color: #3882f6;
+    width: 50%;
+    border-radius: 5px;
+    margin-left: 25%;
+}
+.cta-section h5{
+	font-size: 15px;
+	padding-top: 20px;
+	padding-left:50px;
+	color: #fafafa;
+  }
+  .cta-section p{
+	font-size: 12px;
+	padding-top: 10px;
+	padding-left:50px;
+	color: #fafafa;
+  }
+  .butn{
+    background-color: #3882f6;
+    height: 40px;
+    border-radius:5px;
+    
+    color: white;
+    width: 80px;
+   transform: translate(275px,-40px);
+  }
+  .last-section{
+    height: 40px;
+    width: 100%;
+    background-color: #1f2937;
+    color: #e3e9f0;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
